@@ -54,6 +54,10 @@ export default {
         id: '0009',
         imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png',
         desc: '动植物园'
+      }, {
+        id: '0010',
+        imgUrl: 'http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png',
+        desc: '全部'
       }]
     }
   },
@@ -78,6 +82,8 @@ export default {
   .icons >>> .swiper-container
     height 0
     padding-bottom 50%
+  .icons
+    margin-top .1rem
   .icon
     position relative
     overflow hidden
