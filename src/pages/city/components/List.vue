@@ -53,7 +53,7 @@ export default {
     }
   },
   mounted () {
-    this.scroll = new Bscroll(this.$refs.wrapper)
+    this.initScroll()
   },
   methods: {
     initScroll () {
